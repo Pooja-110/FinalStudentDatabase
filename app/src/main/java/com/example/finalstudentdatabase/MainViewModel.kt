@@ -16,7 +16,6 @@ class MainViewModel(app: Application): AndroidViewModel(app) {
         val list = userDao?.getAllstudent()
         allUser.postValue(list)
     }
-
     fun insertUserinfo(entity: user) {
         val userDao = userDataBase.getAppDatabase(getApplication())?.userDao()
         userDao?.insertUser(entity)
@@ -35,8 +34,8 @@ class MainViewModel(app: Application): AndroidViewModel(app) {
         getAllUsers()
     }
 
-
     fun fetchStudentRecords() {
         getAllUsers()
     }
+
 }

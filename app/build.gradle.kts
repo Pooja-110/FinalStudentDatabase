@@ -10,8 +10,8 @@ android {
     namespace = "com.example.finalstudentdatabase"
     compileSdk = 34
     viewBinding {
-        enable =true
-
+        enable = true
+    }
     defaultConfig {
         applicationId = "com.example.finalstudentdatabase"
         minSdk = 24
@@ -63,5 +63,4 @@ dependencies {
     kapt("androidx.lifecycle:lifecycle-compiler:$lifecycle_version")
 
 
-}
 }
