@@ -95,18 +95,19 @@
             android:orientation="horizontal"
             android:padding="5sp">
 
-            <Button
+            <TextView
                 android:id="@+id/deleteUserId"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:backgroundTint="#A3A0C1"
                 android:text="Delete"
-                android:textColor="@color/white" />
+                android:textColor="#1F5583" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:paddingStart="5sp"
+                android:layout_marginLeft="15sp"
+                android:paddingStart="15sp"
                 android:text="Click on required column to update"
                 android:textColor="#1F5583" />
 

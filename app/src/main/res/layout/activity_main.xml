@@ -166,7 +166,7 @@
         android:id="@+id/textViewStatus"
         android:layout_width="match_parent"
         android:layout_height="35dp"
-        android:layout_marginTop="348dp"
+        android:layout_marginTop="340dp"
         android:background="#606A67"
         android:paddingStart="10dp"
         android:paddingTop="5dp"
@@ -182,13 +182,14 @@
         android:id="@+id/recyclerview_tasks"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_marginTop="430dp"
+        android:layout_marginTop="410dp"
         android:layout_marginBottom="6dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.795" />
+        app:layout_constraintVertical_bias="0.0" />
     app:layout_constraintTop_toBottomOf="@id/textViewStatus"
 
 </androidx.constraintlayout.widget.ConstraintLayout>

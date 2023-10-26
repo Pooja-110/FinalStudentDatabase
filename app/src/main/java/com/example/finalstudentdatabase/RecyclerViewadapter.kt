@@ -40,7 +40,7 @@ class RecyclerViewAdapter(val listener: RowClickListener) : RecyclerView.Adapter
         private val textViewcsdate: TextView = view.findViewById(R.id.csdate)
         private val textViewgender: TextView = view.findViewById(R.id.gender)
         private val textViewcontact: TextView = view.findViewById(R.id.Contact)
-        private val deleteId: Button = view.findViewById(R.id.deleteUserId)
+        private val deleteId: TextView = view.findViewById(R.id.deleteUserId)
 
 
         fun bind(data: user) {
